@@ -36,3 +36,202 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  padding: 64px;
+}
+
+.row {
+  padding: 15px;
+  width: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.row2 {
+  padding: 15px;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: pink;
+  border-radius: 18px;
+
+}
+
+.fullpage {
+  height: 100%
+}
+
+.navBar {
+  position: relative;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  padding-bottom: 20px;
+  /* margin-bottom: 30px; */
+}
+
+.eachNav {
+  display: block;
+  list-style: none;
+  float: right;
+  padding-left: 10px;
+}
+
+.eachNav a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.entryForm {
+  max-width: 200px;
+}
+
+
+
+@media all and (min-width: 480px) {
+  .loginForm {
+    padding: 60px 0;
+  }
+  
+  .loginForm form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+@media all and (min-width: 480px) {
+  .registerForm {
+    padding: 60px 0;
+  }
+  
+  .registerForm form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+.footerForm {
+  width: 100%;
+}
+
+.AboutUsContactForm {
+  width: 100%;
+}
+
+.AboutUsContainer { 
+  background: #f1f1f1;
+  /* padding: 15px;  */
+  float: left;
+  width: 70%;
+}
+
+/* Right column */
+.ContactUsContainer {
+  background: #f1f1f1;
+  float: left;
+  width: 30%;
+  height: 40%;
+  /* padding-right: 10px; */
+  /* height: 100%; */
+  /* padding: 25px; */
+}
+
+.ContactContainer {
+  height: 100%;
+  text-align: center;
+}
+
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  
+}
+
+.all-entries {
+  /* size: auto; */
+  height: auto;
+  padding: 10px;
+  margin: 20px;
+}
+
+.one-entry {
+  float: left;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  border: 3px solid grey;
+  background: white;
+}
+
+.left-column { 
+  /* background: #f1f1f1; */
+  padding: 15px; 
+  float: left;
+  width: 55%;
+}
+
+/* Right column */
+.right-column {
+  background: #f1f1f1;
+  float: left;
+  width: 35%;
+  padding: 25px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.loginForm {
+  text-align: center;
+}
+
+.registerForm {
+  text-align: center;
+}
